@@ -146,6 +146,75 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://blog.nakami.top/2021/08/07/bug/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="Calibura">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Calibura">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/2021/08/07/bug/" class="post-title-link" itemprop="url">bug</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+              
+
+              <time title="创建时间：2021-08-07 00:53:24 / 修改时间：01:09:31" itemprop="dateCreated datePublished" datetime="2021-08-07T00:53:24+08:00">2021-08-07</time>
+            </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <h2 id="hexo-部署第二天-遭遇-插件-坑？"><a href="#hexo-部署第二天-遭遇-插件-坑？" class="headerlink" title="hexo 部署第二天 遭遇 插件 坑？"></a>hexo 部署第二天 遭遇 插件 坑？</h2><h4 id="起因在于部署文本技术和阅读时间插件"><a href="#起因在于部署文本技术和阅读时间插件" class="headerlink" title="起因在于部署文本技术和阅读时间插件"></a>起因在于部署文本技术和阅读时间插件</h4><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-symbols-count-time --save</span><br></pre></td></tr></table></figure>
+<p>分别配置完主路径config和主题路径config的参数</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">symbols_count_time:</span><br><span class="line">  symbols: true #是否统计字数</span><br><span class="line">  time: true #是否统计阅读时长</span><br><span class="line">  total_symbols: true #是否统计总字数</span><br><span class="line">  total_time: true #是否统计总阅读时长</span><br></pre></td></tr></table></figure>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"># 字数及访问时间统计</span><br><span class="line">symbols_count_time:</span><br><span class="line">  separated_meta: true  #分隔线</span><br><span class="line">  item_text_post: true  #文章中的显示是否显示文本</span><br><span class="line">  item_text_total: true       #网页底部的显示是否显示文本</span><br><span class="line">  awl: 2 #平均每个字符的长度</span><br><span class="line">  wpm: 275 # 设定每分钟可阅读的字符数</span><br></pre></td></tr></table></figure>
+
+<p>当我满怀欣喜的执行</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo g</span><br></pre></td></tr></table></figure>
+
+<p>生草的事情发生了</p>
+<p>它报错了！！！！</p>
+<p>好困，先睡了，明天再摸摸。。。。</p>
+
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
     <link itemprop="mainEntityOfPage" href="http://blog.nakami.top/2021/08/07/Day2/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -169,8 +238,9 @@
                 <i class="far fa-calendar"></i>
               </span>
               <span class="post-meta-item-text">发表于</span>
+              
 
-              <time title="创建时间：2021-08-07 00:29:03" itemprop="dateCreated datePublished" datetime="2021-08-07T00:29:03+08:00">2021-08-07</time>
+              <time title="创建时间：2021-08-07 00:29:03 / 修改时间：01:08:33" itemprop="dateCreated datePublished" datetime="2021-08-07T00:29:03+08:00">2021-08-07</time>
             </span>
 
           
@@ -184,7 +254,74 @@
     <div class="post-body" itemprop="articleBody">
 
       
+          <h3 id="嗯，还可以，但为什么有点不爽。"><a href="#嗯，还可以，但为什么有点不爽。" class="headerlink" title="嗯，还可以，但为什么有点不爽。"></a>嗯，还可以，但为什么有点不爽。</h3><ul>
+<li>网上教程bug好多</li>
+</ul>
+
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://blog.nakami.top/2021/08/06/Day1/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="Calibura">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Calibura">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
           
+            <a href="/2021/08/06/Day1/" class="post-title-link" itemprop="url">Day1</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+
+              <time title="创建时间：2021-08-06 00:47:03" itemprop="dateCreated datePublished" datetime="2021-08-06T00:47:03+08:00">2021-08-06</time>
+            </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="far fa-calendar-check"></i>
+                </span>
+                <span class="post-meta-item-text">更新于</span>
+                <time title="修改时间：2021-08-07 01:47:07" itemprop="dateModified" datetime="2021-08-07T01:47:07+08:00">2021-08-07</time>
+              </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <h6 id="Day1，好困。。。，明天再摸吧。。。"><a href="#Day1，好困。。。，明天再摸吧。。。" class="headerlink" title="Day1，好困。。。，明天再摸吧。。。"></a>Day1，好困。。。，明天再摸吧。。。</h6>
       
     </div>
 
@@ -265,9 +402,13 @@
       <div class="site-state-item site-state-posts">
           <a href="/archives/">
         
-          <span class="site-state-item-count">1</span>
+          <span class="site-state-item-count">3</span>
           <span class="site-state-item-name">日志</span>
         </a>
+      </div>
+      <div class="site-state-item site-state-tags">
+        <span class="site-state-item-count">1</span>
+        <span class="site-state-item-name">标签</span>
       </div>
   </nav>
 </div>
